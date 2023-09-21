@@ -12,23 +12,69 @@
 
 <head>
     <meta charset="UTF-8">
+    <!--Device Size as per the user Device-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--AUTHOR NAME INCLUDED-->
+    <meta name="author" content="Tirth Prajapati">
     <meta name="description" content="Lab-1 HTML Overview">
     <title>Lab1: HTML Overview</title>
 </head>
 
+<!--CSS Formetted style added between the head tag and body tag (main body)-->
+
+<style>
+    body {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .sender-column {
+        text-align: right;
+    }
+
+    u {
+        color: #484848;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    p,
+    ul,
+    ol,
+    dl,
+    address {
+        font-size: 1.1em;
+    }
+
+    p,
+    li,
+    dd,
+    dt,
+    address {
+        line-height: 1.5;
+    }
+</style>
+
+<!--Main Body Part-->
+
 <body>
-    <!--Separating the body parts of the letter-->
     <address>
 
         <!--The sender's address that should be align on the right side of the web page.-->
 
-        <p class="sender-column">Dr. Eleanor Gaye
+        <p class="sender-column"><em>Dr. Eleanor Gaye
                 <br>Awesome Science faculty
                 <br>University of Awesome
                 <br>Bobtown, CA 99999,
                 <br>USA
-                <br>Tel: 123-456-7890
-                <br>Email:no_reply@example.comF
+                <br><b>Tel: 123-456-7890</b>
+                <br><b>Email:</b>no_reply@example.com</em>
             <br><br>20 January 2016
         </p>
     </address>
@@ -39,17 +85,18 @@
             <br>UK
         </em></p>
 
-<!--Using Headings-->
     <h1>Re: Eileen Dover university application</h1>
     <p>Dear Eileen,
         <br><br>Thank you for your recent application to join us at the University of Awesome's science faculty to study
         as part
         <br>of your <u>PhD</u> next year. I will answer your questions one by one, in the following sections.
         <br><br>
-    <h1>Starting dates</h1>
+    <h2>Starting dates</h2>
     We are happy to accommodate you starting your study with us at any time, however it would suit us better if
     you<br>could start at the beginning of a semester; the start dates for each one are as follows:
     <br>
+
+   
 
     <dl>
         <dd> First semester: 9 September 2016</dd>
@@ -62,7 +109,7 @@
     You can find more <a href=" ">information about university</a> dates on our website.
     </p>
 
-    <h1>Subjects of study</h1>
+    <h2>Subjects of study</h2>
     <p>
         At the Awesome Science Faculty, we have a pretty open-minded research facility - as long as the subjects fall
         somewhere in the realm of science and technology. You seem like an intelligent, dedicated researcher, and just
@@ -83,13 +130,14 @@
         research to take, required staff and other resources, and anything else you think we'd need to know? Thanks.
     </p>
 
-    <h1>Exotic dance moves</h1>
+    <h2>Exotic dance moves</h2>
     <p>
         Yes, you are right! As part of my post-doctorate work, I <em>did </em>study exotic tribal dances. To answer your
         question,
         my favourite dances are as follows, with definitions:
     </p>
 
+    
         Polynesian chicken dance
         A little known but very influential dance dating back as far as 300BC, a whole village would dance around in
             a circle like chickens, to encourage their livestock to be "fruitful".
@@ -110,6 +158,5 @@
     </p>
     <p>Yours sincerely,</p>
     <p>Dr. Eleanor Gaye</p>
-    <p>University of Awesome motto: "Be awesome to each other." -- <!--Itallic fonts--> <em>The memoirs of Bill S
-            Preston, Esq</em></p>
+    <p>University of Awesome motto: "Be awesome to each other." -- <!--Itallic fonts--> <em>The memoirs of Bill S Preston, Esq</em></p>
 </body>
