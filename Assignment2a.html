@@ -1,0 +1,155 @@
+<!--
+    Name            - Tirth Prajapati
+    subject         - web development Fundamentals (INFT 1206)
+    Student ID      - 100853847
+    Instructor Name - Nadia Goralski
+    Description     - Assignment 2 HTML Multimedia and Tables
+    Brief Overview  - In this assignment 2, students are asked to add some images in the web page.-->
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Tirth Prajapati">
+    <meta name="description" content="Lab-2 HTML Multimedia and Tables">
+
+    <title>Lab-2 Mozilla splash page</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://www.youtube.com/embed/ojcNcvb1olg?si=TAtQxoxergNee2gt" rel="https://www.youtube.com/" type="video">
+
+    <style>
+        html {
+            font-family: 'Open Sans', sans-serif;
+            background: url(pattern.png);
+        }
+
+        body {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: rgb(248, 243, 243);
+            position: relative;
+        }
+
+        header {
+            height: 150px;
+        }
+
+        header img {
+            width: 100px;
+            position: absolute;
+            right: 32.5px;
+            top: 32.5px;
+        }
+
+        h1 {
+            font-size: 50px;
+            line-height: 140px;
+            margin: 0 0 0 32.5px;
+        }
+
+        main {
+            background: #eee1e1;
+        }
+
+        article {
+            padding: 20px;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        p {
+            line-height: 2;
+        }
+
+        iframe {
+            float: left;
+            margin: 0 20px 20px 0;
+            max-width: 100%;
+        }
+
+        .further-info {
+            clear: left;
+            padding: 40px 0;
+            background: #de342b;
+            box-shadow: inset 0 3px 2px rgba(0, 0, 0, 0.5),
+                inset 0 -3px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        .further-info a {
+            width: 25%;
+            display: block;
+            float: left;
+        }
+
+        .further-info img {
+            max-width: 100%;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+
+        .red-panda img {
+            display: 100%;
+            width: 100%;
+            height: 100;
+            object-fit:cover;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Mozilla</h1>
+        <img src="/assignment2a_adjusted_images/firefox_logo-only_RGB-120.png" alt="firefox_logo-only_RGB-120">
+    </header>
+
+    <main>
+        <article>
+            <iframe src="https://www.youtube.com/embed/ojcNcvb1olg?si=TAtQxoxergNee2gt" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+            <h2>Rocking the free web</h2>
+            <p>Mozilla are a global community of technologists, thinkers, and builders, working together to keep the
+                Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web.
+                We believe this act of human collaboration across an open platform is essential to individual growth and
+                our collective future.</p>
+            <p>Click on the images below to find more information about the cool stuff Mozilla does. <a
+                    href="https://www.flickr.com/photos/mathiasappel/21675551065/">Red panda picture</a> by Mathias
+                Appel.</p>
+        </article>
+
+        <div class="further-info">
+
+            <a href="https://www.mozilla.org/en-US/firefox/new/">
+                <img src="/assignment2a_adjusted_images/firefox_logo-only_RGB-120.png" alt="firefox_logo-only_RGB-120">
+            </a>
+            <a href="https://www.mozilla.org/">
+                <img src="/assignment2a_adjusted_images/mozilla-dinosaur-head-120.png" alt="mozilla-dinosaur-head-120">
+            </a>
+            <a href="https://addons.mozilla.org/">
+                <img src="/assignment2a_adjusted_images/firefox-addons-120.jpg" alt="firefox-addons-120">
+            </a>
+            <a href="https://developer.mozilla.org/en-US/">
+                <img src="/assignment2a_adjusted_images/mdn (1) (1).png" alt="mdn">
+            </a>
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="red-panda">
+
+            <picture class="red-panda"><img src="/assignment2a_adjusted_images/red-panda-600.jpg" alt="red-panda"></picture>
+
+        </div>
+
+    </main>
+</body>
+
+</html>
