@@ -1,0 +1,81 @@
+/*
+    Name            - Tirth Prajapati
+    subject         - web development Fundamentals (INFT 1206)
+    Student ID      - 100853847
+    Instructor Name - Nadia Goralski
+    Description     - Assignment 3c CSS
+    Brief Overview  - In this assignment 3, students are familiarized with the basic concept of CSS styles.
+    date            - 18th October, 2023
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+
+    /*Font changed and serif style included*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+
+    @font-face {
+        font-family: sans-serif src: url();
+    }
+
+    /*Line height property*/
+    line-height: 1.6;
+
+    /*Text spacing and word spacing changed*/
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+}
+
+/* Layout */
+
+section {
+    float: left;
+    width: 50%;
+
+    /*Text indentation*/
+    text-indent: 50px;
+
+}
+
+aside {
+    float: left;
+    width: 30%;
+}
+
+nav {
+    float: left;
+    width: 20%;
+}
+
+footer {
+    clear: both;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* header and footer */
+
+header,
+footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+
+    /*Text align changed to centre*/
+    text-align: center;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
