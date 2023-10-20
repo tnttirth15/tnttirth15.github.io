@@ -10,11 +10,14 @@ div{
     text-shadow: 5cm black;
     border-radius: 5%;
     border:1px solid black;
+
+    /*Position has been changed*/
     position: absolute;
     top: 50%;
     left: 60%;
     margin-top: -100px;
     margin-left: -200px;
+    /*Box should be visible as a button so that is also changed*/
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2),
     inset 5px 5px 8px rgba(0, 0, 0, 0.2),
     inset -5px -5px 8px rgba(0, 0, 0, 0.2);
