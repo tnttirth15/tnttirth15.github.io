@@ -1,0 +1,67 @@
+<!--
+    Name            - Tirth Prajapati
+    subject         - web development Fundamentals (INFT 1206)
+    Student ID      - 100853847
+    Instructor Name - Nadia Goralski, Darren Puffer
+    Description     - Assignment 3c CSS
+    Brief Overview  - In this assignment 4, students are familiarized with the basic concept of javascript.
+    date            - 22nd November, 2023
+-->
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Tirth Prajapati">
+    <meta name="description" content="Assignment 4a">
+    <title>Assignment 4a: Silly story generator</title>
+
+    <style>
+      body {
+        font-family: helvetica, sans-serif;
+        width: 350px;
+      }
+
+      label {
+        font-weight: bold;
+      }
+
+      div {
+        padding-bottom: 20px;
+      }
+
+      input[type="text"] {
+        padding: 5px;
+        width: 150px;
+      }
+
+      p {
+        background: #ffc125;
+        color: #5e2612;
+        padding: 10px;
+        visibility: hidden;
+      }
+    </style>
+</head>
+
+<body>
+    <div>
+        <label for="customname">Enter custom name:</label>
+        <input id="customname" type="text" placeholder="" />
+    </div>
+    <div>
+        <label for="us">US</label
+        ><input id="us" type="radio" name="ukus" value="us" checked />
+        <label for="uk">UK</label
+        ><input id="uk" type="radio" name="ukus" value="uk" />
+    </div>
+    <div>
+        <button class="randomize">Generate random story</button>
+    </div>
+    <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
+    <p class="story">It was 94 fahrenheit outside, so :insertX: went for a walk. When they got to :insertY:, they stared in horror for a few moments, then :insertZ:. Bob saw the whole thing, but was not surprised — :insertX: weighs 300 pounds, and it was a hot day.</p>
+    <script src="Assignment4a.js"></script>
+</body>
+
+</html>
